@@ -1,6 +1,6 @@
 # 重新思考基因和疾病间的联系——ExAC数据库已显示许多以往认为有害的基因是良性的
 
-本文翻译自*Rethink the links between genes and disease*, 原文发表于http://www.nature.com/news/rethink-the-links-between-genes-and-disease-1.20771，有少量改动。
+本文翻译自*Rethink the links between genes and disease*, 原文发表于<http://www.nature.com/news/rethink-the-links-between-genes-and-disease-1.20771>，有少量改动。
 
 ---
 
