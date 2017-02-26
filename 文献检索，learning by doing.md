@@ -29,6 +29,10 @@
 
   双引号中的内容会作为一个整体关键词，必须整个原样出现才会被检索到。
 
+  一图流：
+
+  ![通用检索技巧.png](https://github.com/Yijia-Zhou/Hello-world-/blob/c8e9d64ac252faca27cbd78db270e05818209718/%E9%80%9A%E7%94%A8%E6%A3%80%E7%B4%A2%E6%8A%80%E5%B7%A7.png?raw=true)
+
 - 星号
   星号\*是常用的通配符，可代表任何文字。
 
@@ -44,19 +48,17 @@
 
 美国国立卫生研究院(NIH)建立的生物医学数据库(ncbi)的论文搜索引擎，生物科学领域文献收录多，更新快，适合普通查找文献（与后两种的对比会说明原因）。拿眼下热度相当高的基因编辑作为例子，[在 pubmed 的搜索栏里敲上 gene editing 然后回车](https://www.ncbi.nlm.nih.gov/pubmed/?term=gene+editing)，把玩一下，改改排列方式(most recent / best match)和文章类型
 
+![pubmed 修改.png](https://github.com/Yijia-Zhou/Hello-world-/blob/c8e9d64ac252faca27cbd78db270e05818209718/pubmed%20%E4%BF%AE%E6%94%B9.png?raw=true)
 
+不过无论怎么改，搜出来的结果总是大多与 Crispr-Cas9 有关（毕竟大热），但如果想找找看除了 Crispr 还有啥基因编辑技术的话，就得[在检索式后面加上 NOT CRISPR*](https://www.ncbi.nlm.nih.gov/pubmed/?term=gene+editing+NOT+CRISPR*)（ Crispr 能配套的不止 Cas9, 有时候用 Crispr-Cas9 的研究也会偷懒少写，所以可以用上通配符\*），不少没怎么见过的基因编辑手段就都浮出水面啦（此处建议 Article types 选 Journal Article 以选出研究论文）。
 
-不过无论怎么改，搜出来的结果总是大多与 Crispr-Cas9 有关（毕竟大热），但如果想找找看除了 Crispr 还有啥基因编辑技术的话，就得[在检索式后面加上 NOT CRISPR*](https://www.ncbi.nlm.nih.gov/pubmed/?term=gene+editing+NOT+CRISPR*)（ Crispr 能配套的不止 Cas9, 有时候用 Crispr-Cas9 的研究也会偷懒少写，所以可以用上通配符\*），不少没怎么见过的基因编辑手段就都浮出水面啦（此处建议 Article types 选 Journal Article 以选出研究论文）
-
-
-
-于是我们就可以看到各种没怎么见过的基因编辑技术了，比如 [single-stranded DNA oligonucleotides(ssODNs)](https://www.ncbi.nlm.nih.gov/pubmed/26402400), 如果感兴趣的话可以用这些作为关键词继续查下去。
+于是我们看到了各种没怎么见过的基因编辑技术，比如 [single-stranded DNA oligonucleotides(ssODNs)](https://www.ncbi.nlm.nih.gov/pubmed/26402400), 如果感兴趣的话可以用这些作为关键词继续查下去。
 
 
 
 #### [高级检索](https://www.ncbi.nlm.nih.gov/pubmed/advanced)
 
-
+![pubmed advance search.png](https://github.com/Yijia-Zhou/Hello-world-/blob/c8e9d64ac252faca27cbd78db270e05818209718/pubmed%20advance%20search.png?raw=true)
 
 pubmed 的高级搜索基本上就是字段搜索，通过 AND OR NOT 等逻辑运算将作者、期刊、出版时间等检索词生成一个较复杂精确的检索式，之后也可以手工编辑检索式。点开 All Fields 下拉菜单看看都有啥字段，然后试着创建个检索式玩玩吧O(∩_∩)O~
 
@@ -66,7 +68,7 @@ pubmed 的高级搜索基本上就是字段搜索，通过 AND OR NOT 等逻辑�
 
 通过右上角的 [Sign in to NCBI ](https://www.ncbi.nlm.nih.gov/account/?back_url=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpubmed%2F)注册/登录后，在 My NCBI 里可以创建自己的文献过滤规则，以后检索的时候可以一键过滤。具体做法参见[如何打造PubMed个人专属滤器？](http://mp.weixin.qq.com/s?__biz=MzA4MzU2NjUyNA==&mid=409746417&idx=1&sn=e3bde988cb80ea56384efbd8828f6c38&scene=21#wechat_redirect) 个人推荐 LinkOut 中的 F1000 Filter, 它所收录的是1000多位世界最好的生物学家所推荐的文章，当有一大堆相关文献不知道该读什么的时候通过 F1000 过滤一下往往有不错的效果。F1000 自己的数据库里还附有推荐人的评述，可以直接到其[官网](http://f1000.com/prime)查找。
 
-
+![NCBI filters.png](https://github.com/Yijia-Zhou/Hello-world-/blob/c8e9d64ac252faca27cbd78db270e05818209718/NCBI%20filters.png?raw=true)
 
 扩展：[PubMed检索小帮手：单篇文献匹配器（Single Citation Matcher）](http://mp.weixin.qq.com/s?__biz=MzA4MzU2NjUyNA==&mid=2693802748&idx=2&sn=16c4202d7d4481bb92b0945004e03701&scene=21#wechat_redirect)
 
@@ -80,7 +82,7 @@ pubmed 的高级搜索基本上就是字段搜索，通过 AND OR NOT 等逻辑�
 
 可以查看并搜索文献的引用及被引用是这俩数据库最大的特点之一，除了本身的引文分析手段，WOS 的引用数据可导出到各种引用分析软件，如 [Hiscite](https://zhuanlan.zhihu.com/p/20902898), 对快速入门一个新领域很有帮助。
 
-
+![WOS 精炼解锁结果.png](https://github.com/Yijia-Zhou/Hello-world-/blob/c8e9d64ac252faca27cbd78db270e05818209718/WOS%20%E7%B2%BE%E7%82%BC%E8%A7%A3%E9%94%81%E7%BB%93%E6%9E%9C.png?raw=true)
 
 在检索结果中按学学科等筛选和进一步检索也是其较好用的功能。
 
