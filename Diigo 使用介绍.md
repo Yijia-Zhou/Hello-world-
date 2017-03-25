@@ -24,7 +24,7 @@ Diigo("Digest of Internet Information, Groups and Other stuff") 是一个社会�
 
 diigo 有 [Chrome](https://chrome.google.com/webstore/detail/diigo-web-collector-captu/pnhplgjpclknigjpccbcnmicgcieojbh)（打不开的话启动 Lantern 即可） 和 [Firefox](https://addons.mozilla.org/en-US/firefox/addon/diigo-web-collector/?src=ss) 两个版本的浏览器插件，360 之类的使用 Chrome 核心的浏览器应该也可以使用 Chrome 版的。![chrome annotate](http://onbw5mnbl.bkt.clouddn.com/chrome%20annotate.png)
 
-安装插件后，打开任何网页后都可以直接进行标注（看教程、读文献时候做笔记就是随手一点的事，被标注的网页会自动收藏到个人 library）。其它浏览器也可以将添加到 diigo 按钮放进收藏夹(<www.diigo.com/tools>).
+安装插件后，打开任何网页后都可以直接进行标注（看教程、读文献时候做笔记就是随手一点的事，被标注的网页会自动收藏到个人 library）。其它浏览器也可以将添加到 diigo 按钮放进收藏夹(www.diigo.com/tools).
 
 
 
